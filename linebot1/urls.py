@@ -22,4 +22,5 @@ from bot import views
 urlpatterns = [
     url('^callback',views.callback),
     path('admin/', admin.site.urls),
+    path('',views.index),
 ]
